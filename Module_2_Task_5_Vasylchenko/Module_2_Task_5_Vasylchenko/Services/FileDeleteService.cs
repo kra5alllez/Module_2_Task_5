@@ -1,8 +1,9 @@
 ﻿using System.IO;
+using Module_2_Task_5_Vasylchenko.Services.Interface;
 
 namespace Module_2_Task_5_Vasylchenko.Services
 {
-    public class FileDeleteService
+    public class FileDeleteService : IFileDeleteService
     {
         public void DeleteFile(string dirName)
         {

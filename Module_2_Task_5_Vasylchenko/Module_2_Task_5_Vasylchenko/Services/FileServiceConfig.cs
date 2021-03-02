@@ -5,7 +5,7 @@ namespace Module_2_Task_5_Vasylchenko.Services
 {
     public class FileServiceConfig : IFileServiceConfig
     {
-        private const string _pathToJsonFile = @"D:\vs project\kra5alllez\Module_2_Task_5\123qwe.json";
+        private const string _pathToJsonFile = "config.json";
         public LoggerConfig Json()
         {
             var fs = File.ReadAllText(_pathToJsonFile);
